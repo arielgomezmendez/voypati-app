@@ -2,6 +2,8 @@ import React from 'react'
 import { Avatar, IconButton } from '@chakra-ui/react'
 import { CheckIcon, SettingsIcon } from '@chakra-ui/icons'
 import "./style.css"
+import Settings from '../../../assets/Settings'
+import Language from '../../../assets/Language'
 
 
 const HeaderButtons = () => {
@@ -14,7 +16,7 @@ const HeaderButtons = () => {
         aria-label='Done'
         fontSize='16px'
         size="sm"
-        icon={<CheckIcon />}
+        icon={<Language />}
       />
       <IconButton
         className='headerButton'
@@ -23,7 +25,7 @@ const HeaderButtons = () => {
         aria-label='Done'
         fontSize='16px'
         size="sm"
-        icon={<SettingsIcon />}
+        icon={<Settings />}
       />
       <IconButton
         className='headerButton'
