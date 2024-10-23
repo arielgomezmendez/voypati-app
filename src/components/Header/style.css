@@ -1,0 +1,28 @@
+.header{
+  display: flex;
+  background-color: #fff;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.leftItem{
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  margin-left: 30px;
+
+}
+
+.logo{
+  width: 40%;
+  height: 60px;
+}
+
+.rightItem{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: end;
+  margin-right: 30px;
+  margin-top: 14px;
+}

@@ -1,0 +1,9 @@
+.headerButtons{
+  display: flex;
+  flex-direction: row;
+}
+
+.headerButtons{
+  margin-left: 20px;
+  gap: 8px;
+}
