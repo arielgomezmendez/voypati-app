@@ -13,7 +13,6 @@ const HeaderButtons = () => {
         className='headerButton'
         isRound={true}
         variant='solid'
-        aria-label='Done'
         fontSize='16px'
         size="sm"
         icon={<Language />}
@@ -22,7 +21,6 @@ const HeaderButtons = () => {
         className='headerButton'
         isRound={true}
         variant='solid'
-        aria-label='Done'
         fontSize='16px'
         size="sm"
         icon={<Settings />}
@@ -31,7 +29,6 @@ const HeaderButtons = () => {
         className='headerButton'
         isRound={true}
         variant='solid'
-        aria-label='Done'
         size="sm"
         icon={<Avatar size='xs' />}
       />

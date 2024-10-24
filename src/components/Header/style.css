@@ -3,6 +3,7 @@
   background-color: #fff;
   flex-direction: row;
   margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .leftItem{
@@ -14,8 +15,8 @@
 }
 
 .logo{
-  width: 40%;
-  height: 60px;
+  width: 62%;
+  height: 64px;
 }
 
 .rightItem{
