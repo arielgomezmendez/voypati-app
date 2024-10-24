@@ -2,6 +2,7 @@ import './App.css'
 import { Grid, GridItem } from '@chakra-ui/react'
 import Header from './Components/Header/Header'
 import SideMenu from './components/SideMenu/SideMenu'
+import Main from './components/Main/Main'
 
 function App() {
   return (
@@ -17,11 +18,11 @@ function App() {
         <GridItem pl='2' bg='' area={'header'}>
           <Header/>
         </GridItem>
-        <GridItem pl='2' area={'nav'}>
+        <GridItem pl='2' area={'nav'} >
           <SideMenu/>
         </GridItem>
-        <GridItem pl='2' bg='green.300' area={'main'}>
-          Main
+        <GridItem pl='2' bg=' #F9FAFB' area={'main'} borderTopLeftRadius={"50px"}>
+          <Main/>
         </GridItem>
       </Grid>
     </>
