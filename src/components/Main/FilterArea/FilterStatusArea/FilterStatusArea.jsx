@@ -4,7 +4,7 @@ import { Button, Stack } from '@chakra-ui/react'
 const FilterStatusArea = () => {
   return (
     <>
-      <Stack direction='row' spacing={4} align='center'>
+      <Stack direction='row' spacing={2} align='center' marginRight={"20px"}>
         <Button
           colorScheme='#FFFF'
           variant='solid'
@@ -24,7 +24,8 @@ const FilterStatusArea = () => {
           TRANSPORTING
         </Button>
         <Button
-          colorScheme='teal'
+          color={"#C05621"}
+          border={"2px solid  #DD6B20"}
           size={'xs'}
           height={'16px'}
           borderRadius={"2px"}
@@ -32,7 +33,8 @@ const FilterStatusArea = () => {
           PACKIGING
         </Button>
         <Button
-          colorScheme='teal'
+          border={"2px solid  #38A169"}
+          color={"#25855A"}
           variant='outline'
           size={'xs'}
           height={'16px'}
@@ -40,7 +42,8 @@ const FilterStatusArea = () => {
           DELIVERED
         </Button>
         <Button
-          colorScheme='teal'
+          color={"#C53030"}
+          border={"2px solid #E53E3E"}
           size={'xs'}
           height={'16px'}
           borderRadius={"2px"}

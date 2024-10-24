@@ -1,0 +1,7 @@
+.filterArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 60px;
+  margin-right: 60px;
+}

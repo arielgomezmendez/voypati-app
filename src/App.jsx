@@ -10,18 +10,17 @@ function App() {
       <Grid
         templateAreas={`"header header" "nav main"`}
         gridTemplateRows={'16% 1fr'}
-        gridTemplateColumns={'1fr 4fr'}
+        gridTemplateColumns={'1fr 5fr'}
         h='100vh'
         gap='0'
-        color='blackAlpha.700'
       >
-        <GridItem pl='2' bg='' area={'header'}>
+        <GridItem pl='1' bg='' area={'header'}>
           <Header/>
         </GridItem>
-        <GridItem pl='2' area={'nav'} >
+        <GridItem pl='1' area={'nav'} >
           <SideMenu/>
         </GridItem>
-        <GridItem pl='2' bg=' #F9FAFB' area={'main'} borderTopLeftRadius={"50px"}>
+        <GridItem pl='1' bg=' #F9FAFB' area={'main'} borderTopLeftRadius={"50px"}>
           <Main/>
         </GridItem>
       </Grid>
