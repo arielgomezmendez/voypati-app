@@ -15,7 +15,7 @@ const Main = () => {
         h='86%'
         gap='8'
       >
-        <GridItem pl='2'  area={'filterArea'}>
+        <GridItem pl='2'  area={'filterArea'} >
           <FilterArea/>
         </GridItem>
         <GridItem pl='2' bg='#FFFF' area={'nav'} borderRadius={"20px"} marginLeft={"58px"}>
